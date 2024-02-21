@@ -20,8 +20,8 @@ alert ("Welcome to this website!")
           //    Chapter#02  "(Variables for string)"
 
 // Q:1
-var myFavoriteColor = "blue";
-document.write(myFavoriteColor + "<br>")
+var myFavoriteColor = "black";
+document.write(myFavoriteColor + "<br>");
 
 // Q:2
 var statement=" this is my page";
@@ -30,13 +30,13 @@ document.write(statement + "<br>");
 console.log(statement);
 
 // Q:3
-var teamname = "my awsome team";
+var teamname = "Team name";
 alert (teamname);
 
 // Q:4
 var bestMan = "Charlie";
 var bestMan = "john"
-
+console.log(bestMan)
 
 //           Chapter#3 "(Variables for numbers)"
 // Q:1
