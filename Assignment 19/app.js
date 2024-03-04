@@ -118,18 +118,20 @@ console.log("Q#12", singalSrting);
 
 // Q#13
 var queue = [];
-queue.push("Value 1");
-queue.push("Value 2");
-queue.push("Value 3");
+queue.push("Keyboard");
+queue.push("mouse");
+queue.push("printer");
+queue.push("monitor");
 
 var firstValue = queue.shift(); 
 var secondValue = queue.shift(); 
 var thirdValue = queue.shift(); 
 
-console.log("First Value:", firstValue);
-console.log("Second Value:", secondValue);
-console.log("Third Value:", thirdValue);
-
+document.write("<br>", "<b>DEVICES:</b>", "keyboard", "mouse", "printer", "monitor");
+document.write("First Value:", firstValue);
+document.write("Second Value:", secondValue);
+document.write("Third Value:", thirdValue);
+document.write("Third Value:", thirdValue);
 
 // Q#14
 var stack = [];
