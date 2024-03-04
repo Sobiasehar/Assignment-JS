@@ -99,3 +99,23 @@ document.write ("<br>" + "part(k)" + "&nbsp" + "&nbsp" + "&nbsp" +  "Remainder a
 
 var initialValue = 15; remainder = initialValue % 5;
 document.write ("<br>" + "part(l)" + "&nbsp" + "&nbsp" + "&nbsp" +  "The remainder is: " + remainder + ".");
+
+var ticket = 600, numOfTickets = 5, totalCost =  ticket * numOfTickets;
+document.write ("<br>" +"<br>" +"<br>" +"<br>" + "Q#4" + "&nbsp" + "&nbsp" + "&nbsp" + "The cost of buying" + " " + numOfTickets + " " + "ticket is" + " " + totalCost + " " + "PKR.");
+
+var num = 5;
+document.write ("<br>" + "<br>" + "<br>" + "Q#5" +  "<br>" + "Table of 5" + "<br>" + num + " " + "x 1 = "  + num * 1 + "<br>" + num + " " + "x 2 = "  + num * 2 + "<br>" + " " + num + "x 3 = " + num * 3  + "<br>" + num + " " + "x 4 = "+ num * 4 + "<br>" + num + " " + "x 5 = "+ num * 5 + "<br>" + num + " " + "x 6 = " + num * 6 + "<br>" + num + " " + "x 7 = " + num * 7 + "<br>" + num + " " + "x 8 = " + num * 8 + "<br>" + num + " " + "x 9 = " + num * 9 + "<br>" + num + " " + "x 10 = " + num * 10 + "<br>"  );
+
+var celsiusTemperature = 28;
+document.write ("<br>" + "<br>" + "<br>" + "Q#6" +"<br>" + "Part(a)" + "&nbsp" + "&nbsp" + "&nbsp"  + celsiusTemperature);
+
+var celsiusTemperature = 28, fahrenheitTemperature = (celsiusTemperature * 9/5) + 32;
+document.write ("<br>" + "Part(b)" + "&nbsp" + "&nbsp" + "&nbsp"  + celsiusTemperature + "°C is " + fahrenheitTemperature + "°F");
+
+var fahrenheitTemperature = 82;
+document.write ("<br>" + "Part(c)" + "&nbsp" + "&nbsp" + "&nbsp" + fahrenheitTemperature);
+
+var fahrenheitTemperature = 82; celsiusTemperature = (fahrenheitTemperature - 32) * 5/9;
+document.write ("<br>" + "Part(c)" + "&nbsp" + "&nbsp" + "&nbsp" + fahrenheitTemperature + "°F is " + celsiusTemperature + "°C");
+
+
