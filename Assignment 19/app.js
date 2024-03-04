@@ -117,45 +117,32 @@ var singalSrting = arr.join(" ")
 console.log("Q#12", singalSrting);
 
 // Q#13
-// var arr = ["keyboard", "mouse", "printer", "monitor"];
-// console.log("Q#14", )
+var queue = [];
+queue.push("Value 1");
+queue.push("Value 2");
+queue.push("Value 3");
+
+var firstValue = queue.shift(); 
+var secondValue = queue.shift(); 
+var thirdValue = queue.shift(); 
+
+console.log("First Value:", firstValue);
+console.log("Second Value:", secondValue);
+console.log("Third Value:", thirdValue);
 
 
-
-// var queue = [];
-
-// // Add values to the queue one by one
-// queue.push("Value 1");
-// queue.push("Value 2");
-// queue.push("Value 3");
-
-// // Access and remove values from the queue in FIFO order
-// var firstValue = queue.shift(); // Removes "Value 1"
-// var secondValue = queue.shift(); // Removes "Value 2"
-// var thirdValue = queue.shift(); // Removes "Value 3"
-
-// // Display the values in the order they were stored
-// console.log("First Value:", firstValue);
-// console.log("Second Value:", secondValue);
-// console.log("Third Value:", thirdValue);
-
-
-
+// Q#14
 var stack = [];
-
-// Add values to the stack one by one
 stack.push("Monitor");
 stack.push("Printer");
 stack.push("Mouse");
 stack.push("Keyboard");
 
-// Access and remove values from the stack in LIFO order
-var lastValue = stack.pop(); // Removes "Value 3"
-var secondLastValue = stack.pop(); // Removes "Value 2"
-var thirdLastValue = stack.pop(); // Removes "Value 1"
+var lastValue = stack.pop(); 
+var secondLastValue = stack.pop(); 
+var thirdLastValue = stack.pop(); 
 var forthLastValue = stack.pop();
 
-// Display the values in reverse order
 document.write("<br>", "<b>DEVICES:</b>", "keyboard", "mouse", "printer", "monitor");
 document.write("<br>", "Last Value:", lastValue);
 document.write("<br>","Second Last Value:", secondLastValue);
