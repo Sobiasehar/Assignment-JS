@@ -216,19 +216,14 @@
 //      CHAPTER 9 TO 11 *END*
 
 
-// function checkCharacter(input) {
-//     // Convert the input character to its ASCII code
-var code = prompt("Enter a character");
 
-    // Check if the input character is a number
+var code = prompt("Enter a character");
 if (code >= 48 && code <= 57) {
     result = "The input is a number.";
 }
-    // Check if the input character is an uppercase letter
 else if (code >= 65 && code <= 90) {
     result = "The input is an uppercase letter.";
 }
-    // Check if the input character is a lowercase letter
 else if (code >= 97 && code <= 122) {
     result = "The input is a lowercase letter.";
 }
@@ -237,5 +232,4 @@ else {
 }
 // }
 
-// var result = checkCharacter(userInput);
 document.write("<h2>" + result + "</h2>");

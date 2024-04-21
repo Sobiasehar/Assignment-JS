@@ -1,0 +1,80 @@
+.boder{
+    border: 2px solid #ECEEF8 ;
+    border-radius: 30px;
+    width: 250px;
+    height: 320px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 5px #ECEEF8;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.input-box{
+    border: none;
+    color: 2px solid blue;
+    border-radius: 100px;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.but{
+    margin-top: 10px;
+    font-size: medium;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 50px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.col-inp{
+    background-color: #2388FF;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.col-same{
+    background-color: #D8DDF0;
+    font-weight: bold;
+}
+
+.col-04{
+    background-color: #F5F7FF;
+    font-weight: bold;
+}
+
+.col-1{
+    background-color: #1D2953;
+    color: white;
+    font-weight: bold;
+}
+
+.col-2{
+    background-color: #FF445A;
+    color: white;
+    font-weight: bold;
+}
+
+.col-3{
+    background-color: #2388FF;
+    color: white;
+    font-weight: bold;
+}
+
+.col-4{
+    background-color: #FFC804;
+    color: white;
+    font-weight: bold;
+}
+
+.col-5{
+    background-color: #63DE77;
+    color: white;
+    font-weight: bold;
+}

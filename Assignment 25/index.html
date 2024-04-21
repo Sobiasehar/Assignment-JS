@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="boder">
+        <div>
+            <input type="text" class="input-box col-inp" readonly id="input-work">
+        </div>
+        <div>
+            <button class="but col-04">%</button>
+            <button class="but col-04">R</button>
+            <button class="but col-04" onclick="oneClear()">CE</button>
+            <button class="but col-1" onclick="clearInput()">C</button>
+        </div>
+        <div>
+            <button class="but col-same" onclick="butt('7')">7</button>
+            <button class="but col-same" onclick="butt('8')">8</button>
+            <button class="but col-same" onclick="butt('9')">9</button>
+            <button class="but col-2" onclick="butt('-')">-</button>
+        </div>
+        <div>
+            <button class="but col-same" onclick="butt('4')">4</button>
+            <button class="but col-same" onclick="butt('5')">5</button>
+            <button class="but col-same" onclick="butt('6')">6</button>
+            <button class="but col-3" onclick="butt('/')">/</button>
+        </div>
+        <div>
+            <button class="but col-same" onclick="butt('1')">1</button>
+            <button class="but col-same" onclick="butt('2')">2</button>
+            <button class="but col-same" onclick="butt('3')">3</button>
+            <button class="but col-4" onclick="butt('x')">x</button>
+        </div>
+        <div>
+            <button class="but col-same" onclick="butt('.')">.</button>
+            <button class="but col-same" onclick="butt('0')">0</button>
+            <button class="but col-04">=</button>
+            <button class="but col-5" onclick="butt('+')">+</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
