@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url("https://wallup.net/wp-content/uploads/2019/10/45587-watch-time-bokeh-rope-clock.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: end;
+    padding-right: 130px;
+    height: 641px;
+}
+
+.num{
+    border: 2px solid rgb(222, 194, 121);
+    border-radius: 100px;
+    width: 50px;
+    height: 40px;
+    font-weight: 900;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 250px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+
