@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=scr, initial-scale=1.0">
+    <title>STOP WATCH</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        button{
+            color: rgb(222, 194, 121);
+            background-color: rgba(97, 56, 3, 0.696);
+            border: 2px solid rgb(222, 194, 121);
+            border-radius: 100px;
+            width: 80px;
+            height: 40px;   
+            margin: 23px;
+            padding: 10px;
+        }
+
+        button:hover{
+            border-color: white;
+            background: silver;
+            color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <h1 class="num" id="hour">00</h1>
+            <h1 class="num" id="min">00</h1>
+            <h1 class="num" id="sec">00</h1>
+            <h1 class="num" id="msec">00</h1>
+        </div>
+        <div>
+            <button id="button" onclick="start()">START</button>
+            <button onclick="pause()">PAUSE</button>
+            <button onclick="reset()">RESET</button>
+        </div>
+    </div>
+        
+    <script src="app.js"></script>
+</body>
+</html>
