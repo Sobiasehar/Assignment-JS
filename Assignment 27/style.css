@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-repeat: no-repeat;
+    background-image: url("https://t3.ftcdn.net/jpg/05/55/54/98/360_F_555549806_Tm3qeELHbhjd0dchCfIaoJt3zldyvpUI.jpg");    
+    border-radius: 30px;
+    width: auto;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 69px;
+}
+
+input:hover{
+    background-color: rgb(223, 197, 164);
+    color: black;
+}
+
+.textstyle{
+    border-radius: 20px;
+    width: 30%;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    padding: 10px;
+    margin: 30px;
+}
+
+.btn-1:hover, .btn-2:hover{
+    background-color: rgb(223, 197, 164);
+    color: black;
+}
+
+.btn-1,.btn-2{
+    border: 2px solid darkcyans;
+    border-radius: 20px;
+    width: 20%;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+ul{
+    font-size: 35px;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+    overflow-wrap: break-word;
+    padding-left: 100px;
+}
+
+.edit-btn:hover, .delete-btn:hover{
+    background-color: rgb(223, 197, 164);
+    color: black;
+}
+
+.edit-btn, .delete-btn{
+    border-radius: 20px;
+    color: black;
+    width: 10%;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+
+
